@@ -1,3 +1,20 @@
-<script>
-  window.location.replace("./langle/Langle.html");
-</script>
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="2.png">
+    <title>Potato Salad</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      function redirect(path){
+        window.location.replace(path);
+      }
+    </script>
+</head>
+<body>
+  <h style="font-size: 64px;text-align: center;width: 100%;display: inline-block;background-color: black;color: white;">Tossed Salad and Scrambled Eggs</h>
+  <div class="selection">
+    <button onclick="redirect('./langle/Langle.html');">LANGLE</button>
+    <button onclick="redirect('./tetris/Tetris.html');">TETRIS</button>
+  </div>
+</body>

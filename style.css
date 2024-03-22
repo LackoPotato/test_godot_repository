@@ -1,0 +1,31 @@
+@font-face {
+  font-family: comicssans;
+  src: url(ComicSans.ttf);
+}
+
+body {
+  font-family: comicssans;
+}
+
+.centered{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered-x{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.centered-y{
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.selection button{
+  float:left;
+}
